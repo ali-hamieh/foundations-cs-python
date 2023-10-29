@@ -34,7 +34,7 @@ def matrixSum():
        print("column", col)
        number = int(input("enter numbers of first column"))
        m2[row].append(number)
-     print(m2)    
+     print(m2 )
 
 
       for row in range(len(m1)):
