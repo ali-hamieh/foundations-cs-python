@@ -6,6 +6,20 @@ def welcome():
 
  name = input(print("please enter your name"))
  print("welcome \t" + name) 
+ 
+def matrixSum(m1,m2)
+  m1 = []  
+  m2 = []
+  row = int(input(print"enter number of row"))
+  column = int(input(print"enter number of column"))
+  
+  for i in range(row):
+    print("row", row)
+    m1.append([])
+    for y in range(column):
+      print("column", column)
+      
+  
 
 def main():
   
