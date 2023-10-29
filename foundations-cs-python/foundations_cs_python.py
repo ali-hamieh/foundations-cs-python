@@ -48,10 +48,17 @@ def matrixSum():
 
 def main():
     
-    matrixSum()
+    
     welcome()
     List()
-   
+    
+    number = int(input(print("enter number")))
+
+    if number == 1:
+        matrixSum()
+    else: print("exit")
+             
+        
 main()
     
 
