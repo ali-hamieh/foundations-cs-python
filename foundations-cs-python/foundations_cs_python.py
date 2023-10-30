@@ -57,7 +57,23 @@ def main():
     if number == 1:
         matrixSum()
     else: print("exit")
-             
+   
+ def inverse():
+   m1 = []  
+   m2 = []
+  
+
+   row1 = int(input(print("enter number of row")))
+   col1 = int(input(print ("enter number of column")))
+
+   for row in range(row1):
+      print("row", row)
+      m1.append([])
+      for col in range(col1):
+       print("column", col)
+       number = int(input("enter numbers "))
+       m1[row].append(number)
+   print(m1)    
         
 main()
     
