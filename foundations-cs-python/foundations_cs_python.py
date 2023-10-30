@@ -140,13 +140,13 @@ def main():
  List()
     
  number = int(input(print("enter number")))
-
- if number == 1:
-  matrixSum()
+ 
+ if number==1:
+   matrixSum()
  elif number == 2:
-  inverse()
+   inverse()
  elif number == 3:
-  apply()
+   apply()
  else: print("exit")
     
     
