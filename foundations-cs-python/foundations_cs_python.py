@@ -80,14 +80,13 @@ def inverse():
 def apply():  
    dict = {}
    dict1 = {}
-
-  for i in range(2):
-    x=int(input(print("enter key")))
-    y= input(print("enter name"))
-    dict[x] = [y]
-    dict1[y] = [x]
-  print(dict)
-  print(dict1)
+   for i in range(2):
+     x=int(input(print("enter key")))
+     y= input(print("enter name"))
+     dict[x] = [y]
+     dict1[y] = [x]
+   print(dict)
+   print(dict1)
 
 def main():
     
