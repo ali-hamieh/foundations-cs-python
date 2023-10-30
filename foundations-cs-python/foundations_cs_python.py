@@ -87,6 +87,21 @@ def apply():
      dict1[y] = [x]
    print(dict)
    print(dict1)
+   
+def dction():
+   def diction
+
+m1 = []  
+m2 = []
+dict = {}
+
+row1 = int(input(print("enter number of number of studenst")))
+
+for row in range(row1):
+ print("row", row)
+ m1.append([])
+ m2.append([])
+   
 
 def main():
     
