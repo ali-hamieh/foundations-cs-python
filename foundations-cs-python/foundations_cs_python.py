@@ -44,21 +44,7 @@ def matrixSum():
        m3[row].append(inx)
    print(m3)
       
-  
-
-def main():
-    
-    
-    welcome()
-    List()
-    
-    number = int(input(print("enter number")))
-
-    if number == 1:
-        matrixSum()
-    else: print("exit")
-   
- def inverse():
+def inverse():
    m1 = []  
    m2 = []
   
@@ -73,8 +59,20 @@ def main():
        print("column", col)
        number = int(input("enter numbers "))
        m1[row].append(number)
-   print(m1)    
-        
-main()
+   print(m1)      
+
+def main():
+    
+    
+    welcome()
+    List()
+    
+    number = int(input(print("enter number")))
+
+    if number == 1:
+        matrixSum()
+    else: print("exit")
+    
+    main()
     
 
