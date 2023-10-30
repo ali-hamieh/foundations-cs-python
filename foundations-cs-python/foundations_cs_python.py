@@ -136,23 +136,23 @@ def apply():
 
 def main():
     
-    dction()
-    welcome()
-    List()
     
-    number = int(input(print("enter number")))
+ welcome()
+ List()
+    
+ number = int(input(print("enter number")))
 
-    if number == 1:
-        matrixSum()
-    elif number == 2:
-          inverse()
-    elif number == 3:
-           apply()
-    elif number == 4:
-          dction()
-    else: print("exit")
+ if number == 1:
+  matrixSum()
+ elif number == 2:
+  inverse()
+ elif number == 3:
+  apply()
+ elif number == 4:
+  dction()
+ else: print("exit")
     
     
-    main()
+ main()
     
 
