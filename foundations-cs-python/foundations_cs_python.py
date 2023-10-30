@@ -89,18 +89,17 @@ def apply():
    print(dict1)
    
 def dction():
-   
-
     m1 = []  
     m2 = []
     dict = {}
-
-   row1 = int(input(print("enter number of number of studenst")))
- for row in range(row1):
+    
+    row1 = int(input(print("enter number of number of studenst")))
+for row in range(row1):
      print("row", row)
      m1.append([])
      m2.append([])
-   for col in range(1):
+     
+ for col in range(1):
       print("", col)
       fs = input(print("first  name "))
       m1[row].append(fs)
@@ -116,15 +115,15 @@ def dction():
       cn = input(print("company name "))
       m1[row].append(cn)
       m1[row].append(cn)
-   print(m1)    
+  print(m1)    
 
- for x in range(row1):
+for x in range(row1):
    dict[id]=[m2]
  print(dict)
 
 def main():
     
-    
+    dction()
     welcome()
     List()
     
@@ -138,6 +137,7 @@ def main():
            apply()
     else: print("exit")
     
-main()
+    
+    main()
     
 
