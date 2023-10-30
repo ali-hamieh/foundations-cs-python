@@ -77,7 +77,17 @@ def inverse():
         break
 
 
-def apply() :  
+def apply():  
+   dict = {}
+   dict1 = {}
+
+  for i in range(2):
+    x=int(input(print("enter key")))
+    y= input(print("enter name"))
+    dict[x] = [y]
+    dict1[y] = [x]
+  print(dict)
+  print(dict1)
 
 def main():
     
@@ -91,6 +101,8 @@ def main():
         matrixSum()
     elif number == 2:
           inverse()
+    elif number == 3:
+           apply()
     else: print("exit")
     
 main()
