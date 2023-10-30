@@ -75,7 +75,8 @@ def dction():
         cn = input(print("company name "))
         m1[row].append(cn)
         m1[row].append(cn)
-        print(m1) 
+   print(m1) 
+   
    for x in range(row1):
         dict[id]=[m2]
         print(dict)
