@@ -53,12 +53,13 @@ def dction():
    m1 = []  
    m2 = []
    dict = {}
-
+ 
+ 
    row1 = int(input(print("enter number of number of studenst")))
 for row in range(row1):
- print("row", row)
- m1.append([])
- m2.append([])
+  print("row", row)
+  m1.append([])
+  m2.append([])
  for col in range(1):
    print("", col)
    fs = input(print("first  name "))
