@@ -55,7 +55,7 @@ def dction():
    dict = {}
 
    row1 = int(input(print("enter number of number of studenst")))
- for row in range(row1):
+for row in range(row1):
  print("row", row)
  m1.append([])
  m2.append([])
@@ -75,9 +75,8 @@ def dction():
    cn = input(print("company name "))
    m1[row].append(cn)
    m1[row].append(cn)
-print(m1)    
-
- for x in range(row1):
+print(m1) 
+for x in range(row1):
    dict[id]=[m2]
  print(dict)
 
@@ -133,7 +132,7 @@ def apply():
 
 def main():
     
-    dction()
+    
     welcome()
     List()
     
@@ -145,6 +144,8 @@ def main():
           inverse()
     elif number == 3:
            apply()
+    elif number == 4:
+          dction()
     else: print("exit")
     
     
