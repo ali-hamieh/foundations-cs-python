@@ -75,7 +75,9 @@ def inverse():
         if m1[row][col] == m2[col][row]:
              print ("yes")
         break
-   
+
+
+def apply() :  
 
 def main():
     
