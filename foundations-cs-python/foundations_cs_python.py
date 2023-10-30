@@ -59,7 +59,23 @@ def inverse():
        print("column", col)
        number = int(input("enter numbers "))
        m1[row].append(number)
-   print(m1)      
+   print(m1)     
+   
+   for row in range(col1):
+     print("row", row)
+     m2.append([])
+     for col in range(row1):
+      print("column", col)
+      number = int(input("enter numbers "))
+      m2[row].append(number)
+   print(m2)    
+   
+   for row in range(row1):
+      for col in range(col1):
+        if m1[row][col] == m2[col][row]:
+             print ("yes")
+        break
+   
 
 def main():
     
@@ -71,8 +87,10 @@ def main():
 
     if number == 1:
         matrixSum()
+    elif number == 2:
+          inverse()
     else: print("exit")
     
-    main()
+main()
     
 
