@@ -54,32 +54,34 @@ def dction():
    m2 = []
    dict = {}
  
- 
    row1 = int(input(print("enter number of number of studenst")))
-for row in range(row1):
-  print("row", row)
-  m1.append([])
-  m2.append([])
- for col in range(1):
-   print("", col)
-   fs = input(print("first  name "))
-   m1[row].append(fs)
-   m2[row].append(fs)
-   ln = input(print("last name "))
-   m1[row].append(ln)
-   m2[row].append(ln)
-   id = int(input(print("enter id ")))
-   m1[row].append(id)
-   jt = input(print("job title "))
-   m1[row].append(jt)
-   m2[row].append(jt)
-   cn = input(print("company name "))
-   m1[row].append(cn)
-   m1[row].append(cn)
-print(m1) 
-for x in range(row1):
-   dict[id]=[m2]
- print(dict)
+   for row in range(row1):
+       print("row", row)
+       m1.append([])
+       m2.append([])
+       for col in range(1):
+        print("", col)
+        fs = input(print("first  name "))
+        m1[row].append(fs)
+        m2[row].append(fs)
+        ln = input(print("last name "))
+        m1[row].append(ln)
+        m2[row].append(ln)
+        id = int(input(print("enter id ")))
+        m1[row].append(id)
+        jt = input(print("job title "))
+        m1[row].append(jt)
+        m2[row].append(jt)
+        cn = input(print("company name "))
+        m1[row].append(cn)
+        m1[row].append(cn)
+        print(m1) 
+   for x in range(row1):
+        dict[id]=[m2]
+        print(dict)
+                       
+
+
 
 
 def inverse():
