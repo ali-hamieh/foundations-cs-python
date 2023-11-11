@@ -5,7 +5,14 @@
 
 
 
-
+def addTab():
+    dict = {}
+    z = input(print("enter number of tabs "))
+    for i in range(z):
+        x = input(print("enter website"))
+        y = input(print("enter url"))
+        dict[x] = [y]
+    print(dict)
 
 
 
@@ -28,8 +35,10 @@ def displayMenu():
 
 def main():
     displayMenu()
-    choice = eval(input(("enter choise"))
-    while (choice!=9):
+    choice = int(input(("enter choice")))
+    while (choice !=9 ):
         if choice == 1:
+            addTab()
+        elif choice == 2:
             pass
 main()
