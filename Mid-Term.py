@@ -1,9 +1,1 @@
-hi
-
-hello
-
-
-final
-
-
-last
+now
