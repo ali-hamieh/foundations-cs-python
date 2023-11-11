@@ -1,5 +1,15 @@
 
-
+def closeTab():
+  dict = {}
+  z = int(input(print("enter number of tabs ")))
+  for i in range(z):
+      x = input(print("enter website"))
+      y = input(print("enter url"))
+      dict[x] = [y]
+  print(dict)
+  m = input(print("enter website to delete"))
+  del dict[m]
+  print(dict)
 
 
 
@@ -40,5 +50,7 @@ def main():
         if choice == 1:
             addTab()
         elif choice == 2:
-            pass
+            closeTab()
+        elif choice == 3:
+            pass2
 main()
