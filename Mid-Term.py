@@ -7,7 +7,7 @@
 
 def addTab():
     dict = {}
-    z = input(print("enter number of tabs "))
+    z = int(input(print("enter number of tabs ")))
     for i in range(z):
         x = input(print("enter website"))
         y = input(print("enter url"))
