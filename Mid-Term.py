@@ -1,3 +1,14 @@
+def closeTab():
+  dict = {}
+  z = int(input(print("enter number of tabs ")))
+  for i in range(z):
+      x = input(print("enter website"))
+      y = input(print("enter url"))
+      dict[x] = [y]
+  print(dict)
+
+
+
 
 def closeTab():
   dict = {}
