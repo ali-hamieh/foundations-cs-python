@@ -9,6 +9,11 @@ def load():
         y = input(print("enter url"))
         dict[x] = [y]
     print(dict)
+    l = input(print("enter file path + extension . json"))
+
+    with open(l, "w") as outfile:
+        json.dump(dict, outfile)
+
     
 def jSon():
     dict = {}
