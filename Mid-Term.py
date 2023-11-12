@@ -14,6 +14,12 @@ def load():
     with open(l, "w") as outfile:
         json.dump(dict, outfile)
 
+    with open(l) as f:
+        data = f.read()
+
+    js = json.loads(data)
+
+    print("the output of the file you saved", js)
     
 def jSon():
     dict = {}
