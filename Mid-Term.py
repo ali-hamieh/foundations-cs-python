@@ -58,8 +58,8 @@ def printIndex():
     for key, value in dict.items():
         print("The index is:", key)
 
-def webScrap():
-  dict = {}
+def webScrap(): #time complexity is O(N) with n the length of the list . after entering the url's in dictionary .by using the index the user
+  dict = {}     # will be able to webscrap the desired website
   z = int(input(print("enter number of tabs ")))
   for i in range(z):
       x = input(print("enter website"))
@@ -70,15 +70,15 @@ def webScrap():
   m = input(print("enter full address ex: http://www.python.org"))
   b = dict[(m)][0]
   print(b)
-  fp = urllib.request.urlopen(b)
+  fp = urllib.request.urlopen(b)    # 
   mybytes = fp.read()
   mystr = mybytes.decode("utf8")
   fp.close()
   print(mystr)
 
 
-def closeTab():
-  dict = {}
+def closeTab(): #time complexity is O(N) with n the length of the list. here the uset enter or open as much tabs he want and then he can choose by
+  dict = {}     #entering the desired index he wants to delete
   z = int(input(print("enter number of tabs ")))
   for i in range(z):
       x = input(print("enter website"))
@@ -93,7 +93,7 @@ def closeTab():
 
 
 
-def addTab():
+def addTab(): #time complexity is O(N) with n the length of the list.in this fuction the user can add tabs to dictionary containing the website name and url and then print it to the user
     dict = {}
     z = int(input(print("enter number of tabs ")))
     for i in range(z):
@@ -119,7 +119,7 @@ def nest():
 
 
 
-def displayMenu():
+def displayMenu():# here is the meuu that was used to display the items in the main function
     print("1.Open Tab\n"  +
           "2.Cose Tab\n"   +
           "3.Switch Tab\n"  +
