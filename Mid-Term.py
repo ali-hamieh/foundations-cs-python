@@ -70,7 +70,7 @@ def webScrap(): #time complexity is O(N) with n the length of the list . after e
   m = input(print("enter full address ex: http://www.python.org"))
   b = dict[(m)][0]
   print(b)
-  fp = urllib.request.urlopen(b)    # 
+  fp = urllib.request.urlopen(b)    # i got this from https://www.edureka.co/blog/web-scraping-with-python/
   mybytes = fp.read()
   mystr = mybytes.decode("utf8")
   fp.close()
