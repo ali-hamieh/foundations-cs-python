@@ -9,18 +9,16 @@ def webScrap():
       x = input(print("enter website"))
       y = input(print("enter url"))
       dict[x] = [y]
- print(dict)
+  print(dict)
 
- m = input(print("enter name"))
- b = dict_students[(m)][0]
- print(b)
- fp = urllib.request.urlopen(b)
- mybytes = fp.read()
-
- mystr = mybytes.decode("utf8")
- fp.close()
-
- print(mystr)
+  m = input(print("enter full address ex: http://www.python.org"))
+  b = dict[(m)][0]
+  print(b)
+  fp = urllib.request.urlopen(b)
+  mybytes = fp.read()
+  mystr = mybytes.decode("utf8")
+  fp.close()
+  print(mystr)
 
 
 def closeTab():
@@ -76,5 +74,7 @@ def main():
         elif choice == 2:
             closeTab()
         elif choice == 3:
-            pass2
+            webScrap()
+        elif choice == 4:
+            pass
 main()
