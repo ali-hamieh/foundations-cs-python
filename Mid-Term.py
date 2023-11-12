@@ -1,4 +1,7 @@
 import urllib.request
+import json 
+
+
 def clearAll():
     dict = {}
     z = int(input(print("enter number of tabs ")))
@@ -8,7 +11,7 @@ def clearAll():
         dict[x] = [y]
     print(dict)
     dict.clear()
-    print(dict)
+    print("you are cleared" ,dict)
 
 
 def printIndex():
@@ -98,5 +101,11 @@ def main():
         elif choice == 4:
             printIndex()
         elif choice == 5:
+            pass
+        elif choice == 6:
+            clearAll()
+        elif choice == 7:
+            jason()
+        elif choice == 8:
             pass
 main()
