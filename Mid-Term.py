@@ -1,6 +1,9 @@
 import urllib.request
 
-
+def printIndex():
+    dict = {}
+    z = int(input(print("enter number of tabs ")))
+    for i in range(z):
 
 def webScrap():
   dict = {}
