@@ -20,7 +20,7 @@ def load():
     js = json.loads(data)
 
     print("the output of the file you saved", js)
-    
+
 def jSon():
     dict = {}
     z = int(input(print("enter number of tabs ")))
