@@ -11,9 +11,16 @@ def webScrap():
       dict[x] = [y]
  print(dict)
 
-y = input(print("enter name"))
-b = dict_students[(y)][0]
-print(b)
+ m = input(print("enter name"))
+ b = dict_students[(m)][0]
+ print(b)
+ fp = urllib.request.urlopen(b)
+ mybytes = fp.read()
+
+ mystr = mybytes.decode("utf8")
+ fp.close()
+
+ print(mystr)
 
 
 def closeTab():
