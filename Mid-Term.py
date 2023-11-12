@@ -18,7 +18,6 @@ def load():
         data = f.read()
 
     js = json.loads(data)
-
     print("the output of the file you saved", js)
 
 def jSon():
