@@ -103,6 +103,7 @@ def addTab():
     print(dict)
 
 def nest():
+    Dict = {}
     f = int(input(print("enter number of tabs ")))
     for i in range(f):
         x = input(print("enter website"))
