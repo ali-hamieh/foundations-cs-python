@@ -20,8 +20,8 @@ def load():
     js = json.loads(data)
     print("the output of the file you saved", js)
 
-def jSon():
-    dict = {}
+def jSon(): #time complexity is O(N) n the length of list. in this fuction after the user enter data to dictionary .the user is promted to enter a file
+    dict = {}  #name with .json extension to save the dictionay data in json format
     z = int(input(print("enter number of tabs ")))
     for i in range(z):
         x = input(print("enter website"))
@@ -31,11 +31,11 @@ def jSon():
 
     l = input(print("enter file path + extension . json"))
 
-    with open(l, "w") as outfile:
+    with open(l, "w") as outfile:       # code used here from: https://www.datasciencelearner.com/how-to-save-dict-as-json-in-python/
         json.dump(dict, outfile)
 
 
-def clearAll():
+def clearAll():#time complexity is O(N) n the length of list. in this fuction the dict.clear will close all tabs of dict
     dict = {}
     z = int(input(print("enter number of tabs ")))
     for i in range(z):
