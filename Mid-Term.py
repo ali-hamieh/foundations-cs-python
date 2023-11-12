@@ -47,7 +47,7 @@ def clearAll():
     print("you are cleared" ,dict)
 
 
-def printIndex():
+def printIndex(): #time complexity is O(N) n the length of loop. this function wil print all tabs. and the it loops to print the index or website nam
     dict = {}
     z = int(input(print("enter number of tabs ")))
     for i in range(z):
@@ -102,8 +102,8 @@ def addTab(): #time complexity is O(N) with n the length of the list.in this fuc
         dict[x] = [y]
     print(dict)
 
-def nest():
-    Dict = {}
+def nest(): #time complexity is O(N) where is the length of list. here the user will enter nested tabs to a specific key or index of the dictionary
+    Dict = {}    #and then print them all
     f = int(input(print("enter number of tabs ")))
     for i in range(f):
         x = input(print("enter website"))
