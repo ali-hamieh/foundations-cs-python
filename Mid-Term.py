@@ -1,7 +1,7 @@
 import urllib.request
 import json
 
-def json():
+def jSon():
     dict = {}
     z = int(input(print("enter number of tabs ")))
     for i in range(z):
@@ -9,8 +9,11 @@ def json():
         y = input(print("enter url"))
         dict[x] = [y]
     print(dict)
-    
 
+    l = input(print("enter file path + extension . json"))
+
+    with open(l, "w") as outfile:
+        json.dump(dict, outfile)
 
 
 def clearAll():
@@ -116,7 +119,7 @@ def main():
         elif choice == 6:
             clearAll()
         elif choice == 7:
-            json()
+            jSon()
         elif choice == 8:
             pass
 main()
