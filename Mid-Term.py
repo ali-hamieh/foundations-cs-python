@@ -1,6 +1,8 @@
 import urllib.request
 import json
 
+def load():
+    
 def jSon():
     dict = {}
     z = int(input(print("enter number of tabs ")))
@@ -121,5 +123,5 @@ def main():
         elif choice == 7:
             jSon()
         elif choice == 8:
-            pass
+            load()
 main()
