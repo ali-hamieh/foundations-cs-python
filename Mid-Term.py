@@ -131,7 +131,7 @@ def displayMenu():
           "9.Exit\n")
     
 
-def main():
+def main(): #here i created the main menu to view the choices the user can use if the user chooses 9 the while loop will stop
     displayMenu()
     choice = int(input(("enter choice")))
     while (choice !=9 ):
