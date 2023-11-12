@@ -76,5 +76,7 @@ def main():
         elif choice == 3:
             webScrap()
         elif choice == 4:
+            printIndex()
+        elif choice == 5:
             pass
 main()
