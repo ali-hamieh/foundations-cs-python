@@ -1,5 +1,16 @@
 import urllib.request
-import json 
+import json
+
+def json():
+    dict = {}
+    z = int(input(print("enter number of tabs ")))
+    for i in range(z):
+        x = input(print("enter website"))
+        y = input(print("enter url"))
+        dict[x] = [y]
+    print(dict)
+    
+
 
 
 def clearAll():
@@ -105,7 +116,7 @@ def main():
         elif choice == 6:
             clearAll()
         elif choice == 7:
-            jason()
+            json()
         elif choice == 8:
             pass
 main()
