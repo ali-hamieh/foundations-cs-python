@@ -102,7 +102,16 @@ def addTab():
         dict[x] = [y]
     print(dict)
 
-
+def nest():
+    f = int(input(print("enter number of tabs ")))
+    for i in range(f):
+        x = input(print("enter website"))
+        y = input(print("enter title"))
+        z = input(print("enter content"))
+        Dict[x] = {}
+        Dict[x]['title'] = y
+        Dict[x]['content'] = z
+    print(Dict)
 
 
 
@@ -134,7 +143,7 @@ def main():
         elif choice == 4:
             printIndex()
         elif choice == 5:
-            pass
+            nest()
         elif choice == 6:
             clearAll()
         elif choice == 7:
