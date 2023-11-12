@@ -8,6 +8,8 @@ def printIndex():
         y = input(print("enter url"))
         dict[x] = [y]
     print(dict)
+    for key, value in dict.items():
+        print("The index is:", key)
 
 def webScrap():
   dict = {}
