@@ -1,8 +1,8 @@
 import urllib.request
 import json
 
-def load():
-    dict = {}
+def load():  # #time complexity is O(N) n the length of list. in this function same as previous function (#7) but here after it is saved it will be extracted
+    dict = {}  #to view the data that was saved in json format
     z = int(input(print("enter number of tabs ")))
     for i in range(z):
         x = input(print("enter website"))
@@ -17,7 +17,7 @@ def load():
     with open(l) as f:
         data = f.read()
 
-    js = json.loads(data)
+    js = json.loads(data)                              # code used here from: https://www.geeksforgeeks.org/how-to-read-dictionary-from
     print("the output of the file you saved", js)
 
 def jSon(): #time complexity is O(N) n the length of list. in this fuction after the user enter data to dictionary .the user is promted to enter a file
