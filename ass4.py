@@ -89,6 +89,18 @@ class Queue:
     self.tail = None
     self.size = 0
 
+def enqueue(self, value):
+
+node = Node(value)
+if self.size == 0:
+  self.head = node
+  self.tail = node
+  self.size += 1
+else:
+  self.tail.next = node
+  self.tail = node
+  self.size += 1
+print(" student added", node.info)
 
 def main():
  welcome()
