@@ -62,7 +62,12 @@ def displayMenu():
           "5.Graph\n"  +
           "6.exit\n")
 
-
+def plaindrom():
+    s = input("enter string")
+    if (s == s[::-1]):
+        print("yes")
+    else:
+        print("no")
 
 def main():
  welcome()
