@@ -26,7 +26,7 @@ def displayNodes(self):
         temp = temp.next
     print("None")
 
-    
+
 def welcome():
   name = input(print("enter your name"))
   print("welcome" + name)
@@ -36,6 +36,15 @@ def singlyLinked():
          "2.desplay nodes\n" +
           "3.search and delete nodes\n" +
           "4.return to menue\n")
+
+ ll = LinkedList()
+  nodesNumber = int(input(print("number of nodes")))
+   for i in range(nodesNumber):
+      nod = int(input(print("enter node")))
+      ll.addNode(nod)
+
+   ll.displayNodes()
+
 
 def displayMenu2():
 
