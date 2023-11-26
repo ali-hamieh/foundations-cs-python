@@ -18,6 +18,14 @@ def addNode(self, data):
     self.head = new_node
     self.size += 1
 
+
+def displayNodes(self):
+    temp = self.head
+    while temp:
+        print(temp.data, end=" -> ")
+        temp = temp.next
+    print("None")
+
     
 def welcome():
   name = input(print("enter your name"))
