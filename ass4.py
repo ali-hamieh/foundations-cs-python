@@ -77,6 +77,11 @@ def __init__(self,name, mgrade, fgrade, attitude):
   self.fgrade = fgrade
   self.attitude = attitude
 
+class Node:
+
+def __init__(self, data):
+  self.data = data
+  self.next = None
 
 def main():
  welcome()
