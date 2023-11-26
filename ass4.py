@@ -1,5 +1,11 @@
 
+class Node:
 
+  def __init__(self, data):
+    self.data = data
+    self.next = None
+
+      
 def welcome():
   name = input(print("enter your name"))
   print("welcome" + name)
