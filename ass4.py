@@ -69,6 +69,15 @@ def plaindrom():
     else:
         print("no")
 
+class student:
+
+def __init__(self,name, mgrade, fgrade, attitude):
+  self.name = name
+  self.mgrade = mgrade
+  self.fgrade = fgrade
+  self.attitude = attitude
+
+
 def main():
  welcome()
  displayMenu()
