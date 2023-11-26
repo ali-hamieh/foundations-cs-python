@@ -83,6 +83,13 @@ def __init__(self, data):
   self.data = data
   self.next = None
 
+class Queue:
+  def __init__(self):
+    self.head = None
+    self.tail = None
+    self.size = 0
+
+
 def main():
  welcome()
  displayMenu()
