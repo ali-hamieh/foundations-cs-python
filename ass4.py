@@ -4,7 +4,13 @@ class Graph:
     self.number_vertices = num_vertices
     self.adj_matrix = [[0] * number_vertices for _ in range(number_vertices)]
 
-
+  def addVertex(self):
+      # automates the process of adding a vertex
+      self.number_vertices += 1
+      for row in self.adj_matrix:
+          row.append(0)
+      self.adj_matrix.append([0] * self.number_vertices)
+      print( self.number_vertices - 1, )
 
 
 
