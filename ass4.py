@@ -143,15 +143,15 @@ def main():
       if choice == 1:
           singlyLinked()
       elif choice == 2:
-          pass
+          plaindrome()
       elif choice == 3:
-          pass
+          human_r()
       elif choice == 4:
-          pass
+          calc()
       elif choice == 5 :
-          pass
+          graph()
       elif choice == 6:
-          pass
+          exit()
 
 
 
