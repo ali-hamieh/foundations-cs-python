@@ -5,12 +5,25 @@ class Graph:
     self.adj_matrix = [[0] * number_vertices for _ in range(number_vertices)]
 
   def addVertex(self):
-      # automates the process of adding a vertex
       self.number_vertices += 1
       for row in self.adj_matrix:
           row.append(0)
       self.adj_matrix.append([0] * self.number_vertices)
       print( self.number_vertices - 1, )
+
+  def addEdge(self, v1, v2):
+      if 0 <= v1 < self.number_vertices and 0 <= v2 < self.number_vertices:
+          self.adj_matrix[v1][v2] = 1
+          self.adj_matrix[v2][v1] = 1
+          print( v1, "and", v2, "\n")
+
+      elif ((v1 < 0 or v1 >= self.number_vertices)
+            and (v2 < 0 or v2 >= self.number_vertices)):
+          print("Invalid ", v1, "and", v2, "\n")
+      elif (v1 < 0 or v1 >= self.number_vertices):
+          print("vertex invalid", v1, "\n")
+      else:
+          print("vertex invalid", v2, "\n")
 
 
 
