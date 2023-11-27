@@ -1,5 +1,12 @@
+class Graph:
 
-class Node:
+  def __init__(self, number_vertices):
+    self.number_vertices = num_vertices
+    self.adj_matrix = [[0] * number_vertices for _ in range(number_vertices)]
+
+
+
+
 
   def __init__(self, data):
     self.data = data
