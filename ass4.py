@@ -25,6 +25,13 @@ class Graph:
       else:
           print("vertex invalid", v2, "\n")
 
+  def displayGraph(self):
+      if len(self.adj_matrix) == 0:
+          print("Graph is empty!\n")
+          return
+      for row in self.adj_matrix:
+          print(" ".join(map(str, row)))
+
 
 
   def __init__(self, data):
